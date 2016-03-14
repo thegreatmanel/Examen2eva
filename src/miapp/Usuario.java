@@ -1,8 +1,8 @@
 package miapp;
 
 /**
- * En esta clase está el usuario y su metodos de edición.
- * @author Isaac
+ * usuario y metodos de edición.
+ * @author thegreatmanel
  * @version 2.0
  */
 public class Usuario {
@@ -14,26 +14,26 @@ public class Usuario {
     private Libreta libreta;
 
     /**
-     * Constructor por defecto.
+     * Constructor prefijado
      */
     public Usuario() {
     }
 
     /**
-     * Añade una libre de contactos,si hay un huevo libre.
+     * añade una libreta nueva.
      */
     public void engadirLibreta() {
 
     }
 
     /**
-     * La libreta de contactos resulta estar vacía.
+     * borra libreta
      */
     public void borrarLibreta() {
     }
 
     /**
-     * Edita la libre de contactos,modifica los grupos y los contactos.
+     * edita libreta
      */
     public void editarLibreta() {
     }

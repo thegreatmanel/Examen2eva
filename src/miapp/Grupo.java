@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 /**
  * En esta clase,están los grupos y los métodos de edición
- * @author Isaac
+ * @author thegreatmanel
  * @version 2.0
  */
 public class Grupo {
@@ -14,7 +14,7 @@ public class Grupo {
     public Contacto[] arrayContacto;
 
     /**
-     * Constructores por defecto.
+     * Constructores
      */
     public Grupo() {
     }
@@ -51,7 +51,7 @@ public class Grupo {
 
     /**
      *
-     * @return arrayContacts.
+     * @return arrayContactos.
      */
     public Contacto[] getArrayContacto() {
         return arrayContacto;
@@ -66,7 +66,7 @@ public class Grupo {
     }
 
     /**
-     * Añade un contacto nuevo,si hay un hueco libre.
+     * Añade un contacto nuevo
      */
     public void engadirContactoGrupo() {
 
@@ -88,7 +88,7 @@ public class Grupo {
     }
 
     /**
-     * Enseña todos los contactos de la lista.
+     * Enseña los contactos
      */
     public void listadoContactoGrupo() {
         String lista = "";

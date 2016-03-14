@@ -1,8 +1,8 @@
 package miapp;
 
 /**
- * En esta clase están los atributos de contacto.
- * @author Isaac
+ * atributos de contacto.
+ * @author thegreatmanel
  * @version 2.0
  */
 public class Contacto {
@@ -18,18 +18,18 @@ public class Contacto {
     private String email;
 
     /**
-     * Constructor por defecto.
+     * Constructor 
      */
     public Contacto() {
     }
 
     /**
      *
-     * @param id introduce los valores de id.
-     * @param nombre introduce los valores de nombre.
-     * @param apellido introduce los valores de apellido.
-     * @param telefono introduce los valores de telefono.
-     * @param email introduce los valores de email.
+     * @param id  valores de id.
+     * @param nombre  valores de nombre.
+     * @param apellido valores de apellido.
+     * @param telefono valores de telefono.
+     * @param email valores de email.
      */
     public Contacto(int id, String nombre, String apellido, String telf, String email) {
         this.id = id;
